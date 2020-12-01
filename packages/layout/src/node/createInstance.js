@@ -1,5 +1,5 @@
 import * as R from 'ramda';
-import { TextInstance } from '@react-pdf/primitives';
+import { TextInstance } from '@digidem/react-pdf-primitives';
 
 import castArray from '../utils/castArray';
 
@@ -27,10 +27,7 @@ const createInstance = element => {
     props: { style = {}, children = [], ...props },
   } = element;
 
-  const nextChildren = R.compose(
-    R.map(createInstance),
-    castArray,
-  )(children);
+  const nextChildren = R.compose(R.map(createInstance), castArray)(children);
 
   return {
     type,

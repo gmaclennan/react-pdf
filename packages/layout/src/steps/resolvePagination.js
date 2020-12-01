@@ -1,7 +1,7 @@
 /* eslint-disable prefer-destructuring */
 
 import * as R from 'ramda';
-import * as P from '@react-pdf/primitives';
+import * as P from '@digidem/react-pdf-primitives';
 
 import splitText from '../text/splitText';
 import splitNode from '../node/splitNode';

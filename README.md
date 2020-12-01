@@ -2,8 +2,8 @@
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
   <p align="center">React renderer for creating PDF files on the browser and server<p>
   <p align="center">
-    <a href="https://www.npmjs.com/package/@react-pdf/renderer">
-      <img src="https://img.shields.io/npm/v/@react-pdf/renderer.svg" />
+    <a href="https://www.npmjs.com/package/@digidem/react-pdf-renderer">
+      <img src="https://img.shields.io/npm/v/@digidem/react-pdf-renderer.svg" />
     </a>
     <a href="https://travis-ci.org/diegomura/react-pdf">
       <img src="https://img.shields.io/travis/diegomura/react-pdf.svg" />
@@ -18,16 +18,21 @@
   </p>
 </p>
 
+> This is a fork of
+> [`diegomura/react-pdf@2`](https://github.com/diegomura/react-pdf) with babel
+> config modified to target electron 9.0. This improves performance and makes
+> debugging easier because it uses native async functions.
+
 ## How to install
 ```sh
-yarn add @react-pdf/renderer
+yarn add @digidem/react-pdf-renderer
 ```
 
 ## How it works
 
 ```jsx
 import React from 'react';
-import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { Document, Page, Text, View, StyleSheet } from '@digidem/react-pdf-renderer';
 
 // Create styles
 const styles = StyleSheet.create({
@@ -61,7 +66,7 @@ const MyDocument = () => (
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { PDFViewer } from '@react-pdf/renderer';
+import { PDFViewer } from '@digidem/react-pdf-renderer';
 
 const App = () => (
   <PDFViewer>
@@ -75,7 +80,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ### `Node.` Save in a file
 ```jsx
 import React from 'react';
-import ReactPDF from '@react-pdf/renderer';
+import ReactPDF from '@digidem/react-pdf-renderer';
 
 ReactPDF.render(<MyDocument />, `${__dirname}/example.pdf`);
 ```
@@ -104,4 +109,4 @@ MIT © [Diego Muracciole](http://github.com/diegomura)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftaylorudell%2Freact-pdf.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftaylorudell%2Freact-pdf?ref=badge_large)
 
 ---
-![](https://img.shields.io/npm/dt/@react-pdf/renderer.svg?style=flat)
+![](https://img.shields.io/npm/dt/@digidem/react-pdf-renderer.svg?style=flat)

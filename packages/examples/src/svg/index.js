@@ -5,7 +5,7 @@ import ReactPDF, {
   Font,
   PDFViewer,
   StyleSheet,
-} from '@react-pdf/renderer';
+} from '@digidem/react-pdf-renderer';
 import Svg0 from './svg';
 import Svg1 from './Svg1';
 import Svg2 from './Svg2';

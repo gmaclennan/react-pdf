@@ -1,6 +1,6 @@
 import * as R from 'ramda';
-import * as P from '@react-pdf/primitives';
-import { transformColor } from '@react-pdf/stylesheet/lib/colors';
+import * as P from '@digidem/react-pdf-primitives';
+import { transformColor } from '@digidem/react-pdf-stylesheet/lib/colors';
 
 import layoutText from '../svg/layoutText';
 import replaceDefs from '../svg/replaceDefs';

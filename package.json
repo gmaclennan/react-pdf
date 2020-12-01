@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@react-pdf/root",
+  "name": "@digidem/react-pdf-root",
   "version": "2.0.0",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -16,7 +16,7 @@
     "prepublish": "lerna run build",
     "lint": "eslint packages",
     "test": "jest",
-    "examples": "lerna run start --scope @react-pdf/examples"
+    "examples": "lerna run start --scope @digidem/react-pdf-examples"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

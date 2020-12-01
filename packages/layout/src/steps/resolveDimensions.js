@@ -1,6 +1,6 @@
 import * as R from 'ramda';
 import Yoga from 'yoga-layout-prebuilt';
-import * as P from '@react-pdf/primitives';
+import * as P from '@digidem/react-pdf-primitives';
 
 import getMargin from '../node/getMargin';
 import getPadding from '../node/getPadding';

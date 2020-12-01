@@ -3,11 +3,13 @@ module.exports = {
     [
       '@babel/preset-env',
       {
-        loose: true,
         targets: {
-          node: '8.11.3',
-          ie: '11',
+          electron: '9.0.0',
         },
+        // Only use polyfills necessary for target env
+        useBuiltIns: 'usage',
+        corejs: 3,
+        shippedProposals: true,
       },
     ],
     '@babel/preset-react',

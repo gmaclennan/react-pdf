@@ -2,7 +2,7 @@ import './index.css';
 
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
-import { PDFViewer } from '@react-pdf/renderer';
+import { PDFViewer } from '@digidem/react-pdf-renderer';
 
 import GoTo from './goTo';
 import Text from './text';

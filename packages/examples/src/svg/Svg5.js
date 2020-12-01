@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, G, Text, Tspan } from '@react-pdf/renderer';
+import { Svg, G, Text, Tspan } from '@digidem/react-pdf-renderer';
 
 const Svg5 = () => (
   <Svg width="600" height="400" viewBox="0 0 600 400">

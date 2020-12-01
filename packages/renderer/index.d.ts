@@ -1,6 +1,6 @@
 /// <reference types="node" />
 
-declare module '@react-pdf/renderer' {
+declare module '@digidem/react-pdf-renderer' {
   import * as React from 'react';
   import {
     Style,
@@ -8,7 +8,7 @@ declare module '@react-pdf/renderer' {
     FontStore,
     Orientation,
     SourceObject,
-  } from '@react-pdf/types';
+  } from '@digidem/react-pdf-types';
 
   namespace ReactPDF {
     interface Styles {

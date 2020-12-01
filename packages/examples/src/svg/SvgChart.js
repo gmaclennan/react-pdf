@@ -3,7 +3,7 @@
 import React from 'react';
 import camelcase from 'camelcase';
 import { fromPairs } from 'ramda';
-import ReactPDF from '@react-pdf/renderer';
+import ReactPDF from '@digidem/react-pdf-renderer';
 
 const { Svg } = ReactPDF;
 

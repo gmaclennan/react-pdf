@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 /* eslint-disable react/jsx-props-no-spreading */
 
-import * as primitives from '@react-pdf/primitives';
+import * as primitives from '@digidem/react-pdf-primitives';
 import React, { useEffect, useRef, useState } from 'react';
 
 import { pdf, version, Font, StyleSheet } from './index';
@@ -168,7 +168,7 @@ export const render = () => {
 
 export * from './index';
 
-export * from '@react-pdf/primitives';
+export * from '@digidem/react-pdf-primitives';
 
 export default {
   pdf,

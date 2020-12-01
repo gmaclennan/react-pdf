@@ -1,5 +1,5 @@
 import React from 'react';
-import { Svg, G, Path, Polygon, Circle } from '@react-pdf/renderer';
+import { Svg, G, Path, Polygon, Circle } from '@digidem/react-pdf-renderer';
 
 const Svg3 = () => (
   <Svg x="0px" y="0px" width="283.7" height="55.8">

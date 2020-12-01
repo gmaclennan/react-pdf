@@ -20,9 +20,14 @@ const babelConfig = ({ browser }) => ({
     [
       '@babel/preset-env',
       {
-        loose: true,
+        targets: {
+          electron: '9.0.0',
+        },
+        // Only use polyfills necessary for target env
+        useBuiltIns: 'usage',
+        corejs: 3,
+        shippedProposals: true,
         modules: false,
-        ...(browser ? {} : { targets: { node: '8.11.3' } }),
       },
     ],
     '@babel/preset-react',

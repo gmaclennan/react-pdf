@@ -1,5 +1,5 @@
 {
-  "name": "@react-pdf/render",
+  "name": "@digidem/react-pdf-render",
   "version": "2.0.0-beta.17",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -12,9 +12,9 @@
     "watch": "rimraf ./lib && babel src --out-dir lib --watch"
   },
   "dependencies": {
-    "@react-pdf/primitives": "^2.0.0-beta.16",
+    "@digidem/react-pdf-primitives": "^2.0.0-beta.16",
     "@react-pdf/textkit": "^0.4.0",
-    "@react-pdf/types": "^2.0.0-beta.16",
+    "@digidem/react-pdf-types": "^2.0.0-beta.16",
     "abs-svg-path": "^0.1.1",
     "normalize-svg-path": "^1.1.0",
     "parse-svg-path": "^0.1.2",

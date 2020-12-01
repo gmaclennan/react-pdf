@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 
-import resolveImage from '@react-pdf/image';
+import resolveImage from '@digidem/react-pdf-image';
 
 import getSource from './getSource';
 
