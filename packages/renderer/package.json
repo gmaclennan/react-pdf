@@ -59,5 +59,8 @@
     "hooks": {
       "pre-commit": "git add . && lint-staged"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
